@@ -6,33 +6,6 @@ The problem we are trying to solve is that their current process is manual, and 
 
 The web-application we are creating is meant to automate their current registration process and make the pairing process easier. We enable the end-users, *Programs* and *Restaurants*, to register accounts and then fill their profiles with their information and schedules. Then, the *Admins* can see all the applications and create new pairings accordingly.
 
-
-You can run this application on any modern Operating System that supports Python 3.6. Additional installations need to be done to run the project:
-* First you need to install conda on your machine. Instructions for how to install can be found here: https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
-* Create a new folder, call it [YOUR_FOLDER_NAME]
-* Open console and navigate to [YOUR_FOLDER_NAME]
-* Clone our GitHub repository into your folder by using 
-   * git clone [OUR_REPOSITORY_URL]
-* Make sure you're branch is master
-* Navigate into folder called "team-project-feeding-canadian-kids-team-1"
-* Navigate into project called "project"
-* Type conda create --name djangoEnv in your terminal and press Enter
-* Confirm location by typing 'y' in your terminal
-* Type conda activate djangoEnv in your terminal and press Enter
-* Type conda install python=3.6 in your terminal and press Enter
-* Confirm installation by typing 'y'
-* Type conda install django=1.11 in your terminal and press Enter
-* Type 'y' to confirm installation
-* Type pip install django-misaka in your terminal and press Enter
-* Type pip install django-bootstrap3 in your terminal and press Enter
-* Type pip install django-braces in your terminal and press Enter
-* Type pip install pymysql in your terminal and press Enter
-* Type pip install pillow in your terminal and press Enter
-* Type pip install faker and press Enter
-* Type ./run.sh to run the shell script that will make migrations and run the application
-* If you want to populate database with some data before testing, type python populate_db.py
-* Running Django server can be turned off by typing Ctrl + C
-
 ## Key Features
 Our product consists of two almost-separate applications. We have designed the admin and end-user portals. Here we list the features of each:
 
